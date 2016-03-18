@@ -2,7 +2,8 @@
 date = "2016-03-17T00:17:57-07:00"
 draft = false
 title = "Making a RESTful JSON API in Golang"
-
+tags = ["go", "json", "restful"]
+categories = ["tutorials"]
 +++
 
 In this post, we will not only cover how to use Go to create a RESTful JSON
