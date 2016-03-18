@@ -2,6 +2,7 @@ baseurl = "https://src-code.simons-rock.edu/~dchen15/"
 languageCode = "en-us"
 title = "DC15"
 ignoreFile = [ "\\.swp" ]
+pygmentsuseclasses = true
 
 [params]
 author = "Dennis Chen"
