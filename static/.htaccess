@@ -13,10 +13,12 @@ ExpiresByType text/css "access 1 month"
 ExpiresByType application/pdf "access 1 month"
 ExpiresByType text/x-javascript "access 1 month"
 ExpiresByType image/x-icon "access 1 year"
+ExpiresByType application/font-woff "access 1 year"
+ExpiresByType application/font-woff2 "access 1 year"
 ExpiresDefault "access 1 month"
 </IfModule>
 # 1 Month for most static assets
-<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico|woff|woff2)$">
 Header set Cache-Control "max-age=2592000, public"
 </filesMatch>
 ## EXPIRES CACHING ##
